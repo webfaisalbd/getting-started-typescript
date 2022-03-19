@@ -22,9 +22,14 @@
 // let bookName: string = "javascript my sleep"
 // let bookBuy: boolean = true;
 // console.log(bookId,bookName,bookBuy);
-function myFunc(first, second) {
-    const result = first + second;
-    return result;
+// function myFunc(first:number,second:number):number {
+//     const result=first+second;
+//     return result;
+// }
+// const value=myFunc(4,6);
+// console.log(value);
+function unionType(first, second) {
+    let addition = first;
+    return addition;
 }
-const value = myFunc(4, 6);
-console.log(value);
+console.log(unionType(4, " Faisal"));

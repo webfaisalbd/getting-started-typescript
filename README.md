@@ -98,6 +98,17 @@ console.log(value);
 
 ```
 
+#### `union` 
+```typescript
+function unionType(first: number | string ,second: number| string):number | string{
+    let addition= first;
+    return addition;
+}
+console.log(unionType(4," Faisal"));
+
+```
+
+
 
 
 
