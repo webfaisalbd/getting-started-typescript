@@ -11,7 +11,7 @@ npm install typescript --save-dev
 
 ### `compiling ts file` 
 
-`if you have single ts file, then try it`
+#### `if you have single ts file, then try it`
 
 after compile, you get a js file, then connect js file instead of ts file.
 
@@ -20,7 +20,7 @@ npx tsc fileName.js
 
 ```
 
-`if you have multiple ts file, then try it`
+#### `if you have multiple ts file, then try it`
 
 after compile, you get a tsconfig.json ,
 
@@ -29,13 +29,13 @@ npx tsc --init
 
 ```
 
-`In every edit in your code, you have to re-compile`
+#### `In every edit in your code, you have to re-compile`
 ```javascript
 npx tsc fileName.js
 
 ```
 
-`Output/ outdir Path change`
+#### `Output/ outdir Path change`
 
 - 1. go to tsconfig.json file and change the outdir,
 
@@ -56,6 +56,12 @@ npx tsc fileName.js
 npx tsc
 
 ```
+
+---
+
+
+
+
 
 
  
