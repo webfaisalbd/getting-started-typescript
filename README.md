@@ -77,7 +77,16 @@ officeName='IT firm'
 officeName=50000;
 console.log(officeName);
 
+// third code , actual ts
+let bookId: number= 1;
+let bookName: string = "javascript my sleep"
+let bookBuy: boolean = true;
+
+console.log(bookId,bookName,bookBuy);
+
 ```
+
+
 
 
 

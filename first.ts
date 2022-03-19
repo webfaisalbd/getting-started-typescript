@@ -8,15 +8,23 @@
 // Type
 
 // first code 
-let studentName = 'Faisal';
-let studentId=5;
-let goSchool=true;
-console.log('My name is '+studentName+ ' and my id is '+studentId+' and go school? ans:  '+goSchool);
+// let studentName = 'Faisal';
+// let studentId=5;
+// let goSchool=true;
+// console.log('My name is '+studentName+ ' and my id is '+studentId+' and go school? ans:  '+goSchool);
 
 // second code 
 // No problem, because let diye ami variable assign koresi but value set kori nai.
-let officeName;
-officeName='IT firm'
-officeName=50000;
-console.log(officeName);
+// let officeName;
+// officeName='IT firm'
+// officeName=50000;
+// console.log(officeName);
+
+// third code , actual ts
+let bookId: number= 1;
+let bookName: string = "javascript my sleep"
+let bookBuy: boolean = true;
+
+console.log(bookId,bookName,bookBuy);
+
 
