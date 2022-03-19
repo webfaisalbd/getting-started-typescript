@@ -87,11 +87,21 @@ console.log(bookId,bookName,bookBuy);
 ```
 
 
+#### `function` 
+```typescript
+function myFunc(first:number,second:number):number {
+    const result=first+second;
+    return result;
+}
+const value=myFunc(4,6);
+console.log(value);
+
+```
 
 
 
 
 
 
- 
+
 

@@ -21,10 +21,18 @@
 // console.log(officeName);
 
 // third code , actual ts
-let bookId: number= 1;
-let bookName: string = "javascript my sleep"
-let bookBuy: boolean = true;
+// let bookId: number= 1;
+// let bookName: string = "javascript my sleep"
+// let bookBuy: boolean = true;
 
-console.log(bookId,bookName,bookBuy);
+// console.log(bookId,bookName,bookBuy);
+
+
+function myFunc(first:number,second:number):number {
+    const result=first+second;
+    return result;
+}
+const value=myFunc(4,6);
+console.log(value);
 
 
